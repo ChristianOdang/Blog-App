@@ -8,32 +8,34 @@
     width: 100%;
     height: 40px;
     padding: 15px 25px;
-    color: white;
+    color: #b4a04f;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(79deg,
-     rgb(3, 3, 154), rgb(207, 8, 41), rgb(4, 4, 150));
+    background: #515c6f;
 }
 
 .link {
-    color: white;
+    color: #b4a04f;
     text-decoration: none;
     margin: 0px 10px;
 }
 
 .signup_container, .post_container {
     display: flex;
+    background: #b4a04f;
     justify-content: center;
     align-items: center;
     min-height: 90vh;
 }
 
 .signup_form {
+    background: #515c6f;
     border: 1px solid gray;
+    box-shadow: 0 0 6px 8px rgba(106, 119, 143, 0.3);
     padding: 20px;
     border-radius: 10px;
-    width: 30%;
+    width: 80%;
 }
 .signup_form form input{
     padding: 8px;
